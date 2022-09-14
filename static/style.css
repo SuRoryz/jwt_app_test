@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lavenderblush;
+    font-family: Tahoma;
+}
+.app-main {
+    display: flex;
+    padding: 20px;
+    border: 1px solid #ffc6d9;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 3px 8px 0px rgb(34 60 80 / 9%);
+    -moz-box-shadow: 2px 3px 8px 0px rgba(34, 60, 80, 0.09);
+    box-shadow: 2px 3px 8px 0px rgb(34 60 80 / 9%);
+    background-color: #ffe3ec;
+}
+
+.app-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: self-end;
+}
+
+.app-login-btn {
+    width: 70px;
+    height: 27px;
+    outline: none;
+    background-color: #ffd7e4;
+    border: 1px solid #d8a8b8;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+.app-login-btn:hover {
+    background-color: #ffc0d4
+}
+
+.app-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-content-label {
+    padding: 11px;
+    padding-block: 8px;
+    margin-inline: 0.6em;
+    margin-bottom: 1em;
+    background-color: #ffd7e4;
+    border-radius: 6px;
+    width: fit-content;
+}
+
+img {
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+    background-color: lavenderblush;
+    border-radius: 1em;
+}
+
+input {
+    outline: none;
+}
+
